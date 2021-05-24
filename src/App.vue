@@ -27,6 +27,11 @@ export default {
 body{
   margin: 0;
 }
+@font-face {
+  font-family: "Praho";
+  src: local("Praho"),
+   url(../public/Praho-Black.ttf) format("truetype");
+}
 .logo{
   height: 15vh;
 }
