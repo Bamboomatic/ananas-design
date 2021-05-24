@@ -1,5 +1,5 @@
 <template>
-  <img class="logo" alt="Ananas logo" src="./assets/logo.png">
+  <img class="logo" alt="Ananas logo" src="../public/assets/logo.png">
   <Header msg="Ananas Design"/>
   <Gallery/>
 </template>

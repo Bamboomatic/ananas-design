@@ -17,7 +17,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .header {
-  padding: 10px;
+  padding: 5px;
   margin: 0 auto;
   background: black;
   color:aliceblue;
