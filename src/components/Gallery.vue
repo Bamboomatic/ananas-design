@@ -1,16 +1,13 @@
 <template>
-  <div class="main">
-    <h1>{{ msg }}</h1>
+  <div class="gallery">
+  <h1>galeria tutaj</h1>
   
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Main',
-  props: {
-    msg: String
-  }
+  name: 'Gallery',
 }
 </script>
 

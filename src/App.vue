@@ -1,15 +1,18 @@
 <template>
   <img class="logo" alt="Ananas logo" src="./assets/logo.png">
-  <Main msg="Ananas Design"/>
+  <Header msg="Ananas Design"/>
+  <Gallery/>
 </template>
 
 <script>
-import Main from './components/Main.vue'
+import Header from './components/Header.vue'
+import Gallery from './components/Gallery.vue'
 
 export default {
   name: 'App',
   components: {
-    Main
+    Header,
+    Gallery
   }
 }
 </script>
@@ -20,7 +23,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+body{
+  margin: 0;
+}
+.logo{
+  height: 15vh;
 }
 </style>
