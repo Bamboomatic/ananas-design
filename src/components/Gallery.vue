@@ -1,9 +1,9 @@
 <template>
   <div class="gallery">
-  <ul class="poster" v-for="image in images" :key="image.name">
+  <div class="poster" v-for="image in images" :key="image.name">
     <img :alt="image.name" :src="image.url">
     <p>{{image.description}}</p>
-  </ul>
+  </div>
 
   </div>
 </template>
