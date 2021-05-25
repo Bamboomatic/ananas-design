@@ -1,7 +1,12 @@
 <template>
-  <img class="logo" alt="Ananas logo" src="../public/assets/logo.png">
+  <div class="white-wrapper">
+    <img class="logo" alt="Ananas logo" src="../public/assets/logo.png">
+  </div>
   <Header/>
-  <Gallery/>
+  <div class="space"></div>
+  <div class="white-wrapper">
+    <Gallery/>
+  </div>
   <Footer/>
 </template>
 
@@ -30,13 +35,27 @@ export default {
 }
 body{
   margin: 0;
+  background-image: url(../public/assets/background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
 }
 @font-face {
   font-family: "Praho";
   src: local("Praho"),
    url(../public/Praho-Black.ttf) format("truetype");
 }
+.white-wrapper{
+  width: 100%;
+  background: white;
+}
 .logo{
   height: 15vh;
+  background: white
+}
+.space{
+  height: 40vh;
 }
 </style>

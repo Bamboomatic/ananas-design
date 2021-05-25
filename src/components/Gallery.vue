@@ -65,6 +65,7 @@ export default {
   justify-content: center;
   margin: 0 auto;
   max-width: 800px;
+  background: white
 }
 
 .poster {
