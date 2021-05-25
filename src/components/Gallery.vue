@@ -59,6 +59,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
 .poster {
   margin: 40px 40px 70px 40px;
   font-family: 'Praho', 'Arial Narrow', Arial, sans-serif;
@@ -67,7 +75,7 @@ export default {
 
 }
 img {
-  max-width: 260px;
+  max-width: 300px;
   box-shadow: -3px 4px 5px #383733;
   object-fit: cover;
 }
